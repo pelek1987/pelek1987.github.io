@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  {% include head.html %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  {% seo %}
+  {% feed_meta %}
+</head>
+<body>
+  <header>
+    <h1><a href="/">{{ site.title }}</a></h1>
+    <nav>
+      <a href="/">Strona główna</a>
+      <a href="/about/">O mnie</a>
+      <a href="/archive/">Archiwum</a>
+      <a href="/search/">Szukaj</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+    <p>Zbudowane z ❤️ używając Jekyll i GitHub Pages</p>
+  </footer>
+</body>
+</html>

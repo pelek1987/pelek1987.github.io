@@ -1,0 +1,35 @@
+# Podstawowe informacje
+title: Mój Blog
+description: Blog o programowaniu i technologii
+
+# URL i ścieżki
+url: "https://pelek1987.github.io"
+baseurl: ""
+
+# Motyw
+remote_theme: riggraz/no-style-please
+
+# Permalink (struktura URL)
+permalink: /:title/
+
+# Wtyczki
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-sitemap
+
+# Markdown
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: html
+
+# Autor
+author:
+  name: Paweł Sioda
+  email: pawelsidoa@webdevmaniak.pl
+
+# Ustawienia
+show_excerpts: true
