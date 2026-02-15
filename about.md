@@ -8,15 +8,16 @@ permalink: /about/
 
 Cześć! Jestem Paweł.
 
-Tutaj możesz napisać coś o sobie:
+<!-- Tutaj możesz napisać coś o sobie:
 - Kim jesteś
 - Czym się zajmujesz
 - Jakie są Twoje zainteresowania
-- Dlaczego prowadzisz tego bloga
+- Dlaczego prowadzisz tego bloga -->
 
 ## Kontakt
 
 Możesz się ze mną skontaktować przez:
-- Email: twoj-email@example.com
+
+- Email: pawelsioda@webdevmaniak.pl
 - GitHub: [pelek1987](https://github.com/pelek1987)
-- LinkedIn: [Twój profil](https://linkedin.com)
+- LinkedIn: [Mój profil](https://linkedin.com/pawelsioda)
